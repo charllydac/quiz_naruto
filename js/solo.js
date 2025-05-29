@@ -191,8 +191,34 @@ function getUniqueRandomInt(min, max) {
 }
 
 
-function exit() {
+function exit(jid) {
 
+    prepa_new();
+
+    let base;
+
+    if(jid === 1){
+        base = document.querySelector(".player.one");
+    } else {
+        base = document.querySelector(".player.two");
+    }
+
+    let b1 = base.querySelector(".options");
+    let b2 = document.createElement("div");
+    b2.setAttribute("class", "choix-2");
+    let btn2a = document.createElement("div");
+    btn2a.setAttribute("class", "btn-2a");
+    btn2a.innerText = "Annuler";
+    let btn2b = document.createElement("div");
+    btn2b.setAttribute("class", "btn-2b");
+    btn2b.setAttribute("id", "btn2-rd");
+    btn2b.innerText = "Quitter";
+    btn2b.setAttribute("onClick", "exit_game(this)");
+
+    b2.appendChild(btn2a);
+    b2.appendChild(btn2b);
+    b1.appendChild(b2);
+    
 }
 
 function verifie(){
