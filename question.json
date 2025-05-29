@@ -1,0 +1,760 @@
+[
+      {
+        "question": "Quel est le nom complet de Naruto ?",
+        "answers": ["Naruto Uchiha", "Naruto Uzumaki", "Naruto Hatake", "Naruto Sarutobi"],
+        "correct": "Naruto Uzumaki",
+        "img" : "img/R.png"
+      },
+      {
+        "question": "Quel démon est scellé en Naruto ?",
+        "answers": ["Shukaku", "Kurama", "Gyūki", "Matatabi"],
+        "correct": "Kurama",
+        "img" : "img/R (1).png"
+      },
+      {
+        "question": "Qui est le rival principal de Naruto ?",
+        "answers": ["Sakura", "Kakashi", "Sasuke", "Itachi"],
+        "correct": "Sasuke",
+        "img" : "img/aniyuki-sasuke-uchiha-avatar-51.jpg"
+      },
+      {
+        "question": "Gaara est devenu Kazekage à quel age ?",
+        "answers": ["15 ans", "23 ans", "18 ans", "20 ans"],
+        "correct": "15 ans",
+        "img" : "img/R (2).png"
+      },
+      {
+        "question": "Qui est le père de Naruto ?",
+        "answers": ["Jiraiya", "Kakashi", "Hiruka", "Minato"],
+        "correct": "Minato",
+        "img" : "img/f163ae90babd47b219739a39dd1da608 (1).jpg"
+      },
+      {
+        "question": "Lee Rock considère un ninja comme son rival, qui est-ce ?",
+        "answers": ["Naruto", "Neji", "Sasuke", "Itachi"],
+        "correct": "Neji",
+        "img" : "img/OIP (1).jpg"
+      },
+      {
+        "question": "Qui est l'hote du démon à 8 queues ?",
+        "answers": ["Utakata", "Han", "Naruto", "Killer Bee"],
+        "correct": "Killer Bee",
+        "img" : "img/OIP.jpg"
+      },
+      {
+        "question": "Qui est le ninja qui a massacré son clan(UCHIHA) pour la paix dans son village ?",
+        "answers": ["Madara", "Shisui", "Sasuke", "Itachi"],
+        "correct": "Itachi",
+        "img" : "img/R (1).jpg"
+      },
+      {
+        "question": "Quel est l'Uchiha que l'on surnomme le MIRAGE grace à ces pupilles ?",
+        "answers": ["Shisui", "Fugaku", "Kagami", "Itachi"],
+        "correct": "Shisui",
+        "img" : "img/うちはシスイ-768x431.png"
+      },
+      {
+        "question": "Dans quel endroit l'équipe 7 rencontre Kabuto pour la première fois ?",
+        "answers": ["Lors de la transformation de naruto en Kyubi", "Dans une mission", "Quand ils sont à la recherche de Sasuke", "Lors de l'examen chunin"],
+        "correct": "Lors de l'examen chunin",
+        "img" : "img/21df7aeed475fb0b6ff8d5e719804de4.jpg"
+      },
+      {
+        "question": "Quel ninja à été le premier à éviter le coup le plus puissant du Raikage 4ème du nom ?",
+        "answers": ["Minato", "Kakashi", "Naruto", "Killer Bee"],
+        "correct": "Minato",
+        "img" : "img/Minato-namikaze-pere-de-naruto-4eme-hokage-scaled.jpg"
+      },
+      {
+        "question": "Quel nom utilise Obito Uchiha lorsqu'il est au sein de l'Akatsuki ?",
+        "answers": ["Madara", "Obito", "Le prochain Hokage", "Tobi"],
+        "correct": "Tobi",
+        "img" : "img/R (2).jpg"
+      },
+      {
+        "question": "Quelles sont les pupilles de Nagato ?",
+        "answers": ["Rinnegan", "Sharingan", "Byakugan" ],
+        "correct": "Rinnegan",
+        "img" : "img/R (3).png"
+      },
+      {
+        "question": "Quel ninja est surnommé l'Eclair Jaune de Konoha ?",
+        "answers": ["Boruto", "Minato", "Yahiko", "Naruto"],
+        "correct": "Minato",
+        "img" : "img/image-62.jpg"
+        
+      },
+      {
+        "question": "Qui est l'hote de Kyubi ?",
+        "answers": ["Naruto", "Killer Bee", "Roshi", "Fu"],
+        "correct": "Naruto",
+        "img" : "img/R.jpg"
+      },
+      {
+        "question": "De quel clan était l'Hokage 1er du nom ?",
+        "answers": ["Senju", "Uchiha", "Nara", "Uzumaki"],
+        "correct": "Senju",
+        "img" : "img/Membres_clan_Senju.webp"
+      },
+      {
+        "question": "Qui sont les ninjas qui font partie de 3 ninjas légendaire ?",
+        "answers": ["Sakura,Naruto et Sasuke", "Kakashi,Obito et Rin", "Orochimaru,Tsunade et Jiraiya"],
+        "correct": "Orochimaru,Tsunade et Jiraiya",
+        "img" : "img/R (3).jpg"
+      },
+      {
+        "question": "Le trio INO-SHIKA-CHO est composé de combien des ninjas ?",
+        "answers": ["4", "3", "1", "5"],
+        "correct": "3",
+        "img" : "img/8bwd1xdnh9431.webp"
+      },
+      {
+        "question": "Comment s'appelle le petit frère de Madara tuer par Tobirama Senju ?",
+        "answers": ["Kagami", "Tanjima", "Izuna", "Madara Jr"],
+        "correct": "Izuna",
+        "img" : "img/0eb9d65ef36e4169e3fd2c388edc0444.png"
+      },
+      {
+        "question": "La technique interdite d'Edo Tensei à été inventé par quel Hokage ?",
+        "answers": ["Tobirama", "Hiruzen", "Hashirama", "Minato"],
+        "correct": "Tobirama",
+        "img" : "img/300.jpg"
+      },
+      {
+        "question": "Quel est le plus grand rève de Naruto?",
+        "answers": ["Rencontrer ses parents", "Devenir Hokage", "Acquerir la puissance", "Tuer Sasuke"],
+        "correct": "Devenir Hokage",
+        "img" : "img/OIP (3).jpg"
+      },
+      {
+        "question": "Lors de la 1ère attaque de Kyubi, Minato combat son élève sans le savoir. Qui etais cet élève ?",
+        "answers": ["Sasuke", "Kakashi", "Rin", "Obito"],
+        "correct": "Obito",
+        "img" : "img/Minato-Namikaze-vs-Obito-Uchiha.jpg"
+      },
+      {
+        "question": "Comment s'appelle le père de Sasuke ?",
+        "answers": ["Fugaku", "Madara", "Tanjima", "Fugasaku"],
+        "correct": "Fugaku",
+        "img" : "img/a0e04bdf8a6dd68812c5012d3da8166f.jpg"
+      },
+      {
+        "question": "Lee affirme à Sasuke, que le Genin le plus puissant de Konoha se trouve dans son équipe. Qui est-ce ?",
+        "answers": ["Tenten", "Neji", "Gai", "Metal lee"],
+        "correct": "Neji",
+        "img" : "img/R (4).jpg"
+      },
+      {
+        "question": "Qui a était le 1er Ninja de la génération de Naruto à passer Chunin ?",
+        "answers": ["Sakura", "Shikamaru", "Lee", "Kiba"],
+        "correct": "Shikamaru",
+        "img" : "img/R (5).jpg"
+      },
+      {
+        "question": "Quel est le ninja surnommer le NINJA COPIEUR ?",
+        "answers": ["Jiraiya", "Kakashi", "Orochimaru", "Asuma"],
+        "correct": "Kakashi",
+        "img" : "img/6996491559e9f23547df3b1ad66a59aa.jpg"
+      },
+      {
+        "question": "Neji est devenu Jonin à quel age ?",
+        "answers": ["12 ans", "15 ans", "16 ans", "18 ans"],
+        "correct": "16 ans",
+        "img" : "img/R (6).jpg"
+      },
+      {
+        "question": "Itachi devient Capitain dans les sections spéciales ANBU à quelle age ?",
+        "answers": ["7 ans", "8 ans", "12 ans", "10 ans"],
+        "correct": "12 ans",
+        "img" : "img/R (4).png"
+      },
+      {
+        "question": "Qui est le rival de Kakashi depuis la nuit de temps  ?",
+        "answers": ["Obito","Gai","madara","itachi"],
+        "correct": "Gai",
+        "img" : "img/R (7).jpg"
+      },
+      {
+        "question": "Jiraya meurt au combat,qui était son adversaire ?",
+        "answers": ["Kakashi", "Orochimaru", "Naruto", "Pain"],
+        "correct": "Pain",
+        "img" : "img/R (8).jpg"
+      },
+      {
+        "question": "konan est tuée par qui ?",
+        "answers": ["Nagato", "Pain", "Obito", "Deidara"],
+        "correct": "Obito",
+        "img" : "img/maxresdefault (1).jpg"
+      },
+      {
+        "question": "Vrai ou faux,Hidan est immortel ?",
+        "answers": ["Vrai", "Faux"],
+        "correct": "Vrai",
+        "img" : "img/R (9).jpg"
+      },
+      {
+        "question": "Qui est la prémière personne a consideré Naruto ?",
+        "answers": ["Sakura", "Hiruka", "Kakashi", "Hiruzen"],
+        "correct": "Hiruka",
+        "img" : "img/R (22).png"
+      },
+      {
+        "question": "Qui est le maitre de Kabuto Yakushi ?",
+        "answers": ["Sasori", "Danzo", "Pain", "Orochimaru"],
+        "correct": "Orochimaru",
+        "img" : "img/07b843f0d388b14e917dffe4891ef30a.jpg"
+      },
+      {
+        "question": "Quand est-ce-que Naruto rencontre sa mère ?",
+        "answers": ["Lorsqu'il essayait de maitriser le pouvoir de kurama", "Lors de la grande guerre ninja", "Lors du combat final entre lui et sasuke", "Lors du combat contre Pain"],
+        "correct": "Lorsqu'il essayait de maitriser le pouvoir de kurama",
+        "img" : "img/R (5).png"
+      },
+      {
+        "question": "Lors de l'examen CHUNIN, Neji et Naruto se sont affrontés, qui est ressorti vainqueur de ce combat ?",
+        "answers": ["Naruto", "Neji"],
+        "correct": "Naruto",
+        "img" : "img/Naruto_vs_Neji.jpg"
+      },
+      {
+        "question": "Qui est elu Hokage 6ème du nom ?",
+        "answers": ["Naruto", "Gai", "Kakashi", "Tsunade"],
+        "correct": "Kakashi",
+        "img" : "img/R (11).jpg"
+      },
+     
+      {
+        "question": "Quel clan est consideré comme la plus noble ?",
+        "answers": ["Hyuga", "Uchiha", "Naara", "Aburame"],
+        "correct": "Hyuga",
+        "img" : "img/R (12).jpg"
+      },
+      {
+        "question": "De qui Kakashi tient son Sharingan ?",
+        "answers": ["Shisui", "Itachi", "Obito", "Danzo"],
+        "correct": "Obito",
+        "img" : "img/6769959.webp"
+      },
+      {
+        "question": "Quel ninja est consideré comme le dieu des shinobis ?",
+        "answers": ["Ermite Rikudo", "Tobirama", "Asura", "Hashirama"],
+        "correct": "Hashirama",
+        "img" : "img/R (13).jpg"
+      },
+      {
+        "question": "Kakashi est devenu jonin à quel age  ?",
+        "answers": ["7 ans", "13 ans", "12 ans", "10 ans"],
+        "correct": "13 ans",
+        "img" : "img/maxresdefault (2).jpg"
+      },
+      {
+        "question": "Vrai ou faux, qu'Asuma Sarutobi est le fils de l'hokage 3ème du nom ?",
+        "answers": ["Vrai", "Faux"],
+        "correct": "Vrai",
+        "img" : "img/R (6).png"
+      },
+      {
+        "question": "Qui a crée l'Akatsuki pour la prémière fois ?",
+        "answers": ["Obito", "Konan", "Yahiko", "Madara"],
+        "correct": "Yahiko",
+        "img" : "img/R (7).png"
+      },
+      {
+        "question": "Quel est la technique enblématique de Naruto ?",
+        "answers": ["Multi clonage", "Mille oiseaux", "La fleur de lotus", "64 points du haké"],
+        "correct": "Multi clonage",
+        "img" : "img/OIP (6).jpg"
+      },
+      {
+        "question": "Quel biju est scellé en Gaara ?",
+        "answers": ["Shukaku", "Kurama", "Son Goku", "Matatabi"],
+        "correct": "Shukaku",
+        "img" : "img/gaara-naruto-shippuden-jinchuriki.webp"
+      },
+      {
+        "question": "Quel est le nom de la mère de Naruto ?",
+        "answers": ["Tsunade", "Mito", "Kushina", "Hannabi"],
+        "correct": "Kushina",
+        "img" : "img/R (8).png"
+      },
+      {
+        "question": "Qui est le créateur du Rasengan ?",
+        "answers": ["Jiraiya", "Asura", "Minato", "Naruto"],
+        "correct": "Minato",
+        "img" : "img/OIP (7).jpg"
+      },
+      {
+        "question": "Qui est le sensei de l'équipe 7 ?",
+        "answers": ["Kakashi", "Yamato", "Gai", "Kurenai"],
+        "correct": "Kakashi",
+        "img" : "img/R (14).jpg"
+      },
+      {
+        "question": "Qui a tuer Asuma Sarutobi ?",
+        "answers": ["Hidan", "Pain", "Kakuzu", "Tobi"],
+        "correct": "Hidan",
+        "img" : "img/R (38).jpg"
+      },
+      {
+        "question": "Qui a tuer Itachi Uchiha ?",
+        "answers": ["Orochimaru", "Deidara", "Naruto", "Sasuke"],
+        "correct": "Sasuke",
+        "img" : "img/6fa0e93abc8ff0f411f5dd82c634c1ce.png"
+      },
+      {
+        "question": "Quel Jutsu utilise le Sharingan pour copier ?",
+        "answers": ["Ninjutsu", "Genjutsu", "Taijutsu", "Chidori"],
+        "correct": "Ninjutsu",
+        "img" : "img/R (9).png"
+      },
+      {
+        "question": "Quel membre de l'Akatsuki porte un masque orange ?",
+        "answers": ["Obito", "Pain", "Tobi", "Sasori"],
+        "correct": "Tobi",
+        "img" : "img/R (15).jpg"
+      },
+      {
+        "question": "Il y avait un seul ninja capable de vaincre Madara Uchiha, Qui est-ce ?",
+        "answers": ["Hashirama", "Tobirama", "Inoki", "Naruto"],
+        "correct": "Hashirama",
+        "img" : "img/R (10).png"
+      },
+      {
+        "question": "Qui est le ninja expert en Taijutsu ?",
+        "answers": ["Kakashi", "Minato", "Gai", "Hashirama"],
+        "correct": "Gai",
+        "img" : "img/R (16).jpg"
+      },
+      {
+        "question": "Comment s'appelle le ninja qu'on surnomme le Démon sans queue ?",
+        "answers": ["Orochimaru", "Guren", "Zabuza", "Kisame"],
+        "correct": "Kisame",
+        "img" : "img/R (11).png"
+      },
+      {
+        "question": "En devenant Hokage Tsunade succède à ?",
+        "answers": ["Naruto", "Hiruzen", "Minato", "Kakashi"],
+        "correct": "Hiruzen",
+        "img" : "img/R (17).png"
+      },
+      {
+        "question": "Vrai ou Faux, que Tobirama Senju était plus puissant que son frère Hashirama Senju ?",
+        "answers": ["Vrai", "Faux"],
+        "correct": "Faux",
+        "img" : "img/OIP (36).jpg"
+      },
+      {
+        "question": "Comment s'appelle le père de Kakashi Hatake ?",
+        "answers": ["Gros blanc", "Jiraiya", "Sakumo", "Tobirama"],
+        "correct": "Sakumo",
+        "img" : "img/R (12).png"
+      },
+      {
+        "question": "Vrai ou Faux, Madara avant de mourrir était parvenu à éveiller son Rinnegan ?",
+        "answers": ["Vrai", "Faux"],
+        "correct": "Vrai",
+        "img" : "img/OIP (9).jpg"
+      },
+      {
+        "question": "Quelle est la technique signature de Naruto ?",
+        "answers": ["Métamorphose", "Rasengan", "Multi-clonage", "Sexy Jutsu"],
+        "correct": "Sexy Jutsu",
+        "img" : "img/ep161-Scene3-1280x720.jpg"
+      },
+      {
+        "question": "Quelle est la technique qui permet de ressusciter les morts ?",
+        "answers": ["Edo tensei", "Kaleidoscopique notique", "Kamui", "Mangekyu"],
+        "correct": "Edo tensei",
+        "img" : "img/OIP (10).jpg"
+      },
+      {
+        "question": "Quel est le nom du sabre de Zabuza ?",
+        "answers": ["Samehada", "Kubikiribocho", "Totsuka", "Kusanagi"],
+        "correct": "Kubikiribocho",
+        "img" : "img/R (17).jpg"
+      },
+      {
+        "question": "Qui est le compagnon de Zabuza ?",
+        "answers": ["Haku", "Tazuna", "Gato"],
+        "correct": "Haku",
+        "img" : "img/OIP (11).jpg"
+      },
+      {
+        "question": "Qui est le 1er utilisateur du Susanoo ?",
+        "answers": ["Madara", "Asura", "Ermite Rikudo", "Indra"],
+        "correct": "Indra",
+        "img" : "img/R (27).jpg"
+      },
+      {
+        "question": "Quelle est la technique interdit que Lee utilise contre  Gaara lors de leur affrontement ?",
+        "answers": ["Fleur de lotus", "L'ouverture des portes", "Mille oiseaux", "Tourbillonnement divin"],
+        "correct": "L'ouverture des portes",
+        "img" : "img/R (18).jpg"
+      },
+      {
+        "question": "Qui a scellé Kaguya lors de la 4ème Grande Guerre Ninjas ?",
+        "answers": ["Sasuke et Naruto", "Kakashi et Gai", "Hashirama et Madara", "Hagoromo et Hamura"],
+        "correct": "Sasuke et Naruto",
+        "img" : "img/maxresdefault (3).jpg"
+      },
+      {
+        "question": "Qui est le fils adoptif de Gaara ?",
+        "answers": ["Shukaku", "Shinki", "Shinka", "Shinko"],
+        "correct": "Shinki",
+        "img" : "img/R (19).jpg"
+      },
+      {
+        "question": "quel est le nom du premier animal que que naruto invoque ?",
+        "answers": ["Gamabunta", "katsuyu", "Gamakishi"],
+        "correct": "Gamakishi",
+        "img" : "img/OIP (37).jpg"
+      },
+      {
+        "question": "Quel est le nom du premier ninja de rang S que naruto rencontre ?",
+        "answers": ["kushimaru kuriarare", "Zabuza Momoshi", "kisame oshigaki", "Raiga kurosuki"],
+        "correct": "Zabuza Momoshi",
+        "img" : "img/R (37).jpg"
+      },
+      {
+        "question": "Qui a tenté de voler le rouleau des techniques interdites ?",
+        "answers": ["Iruka", "Mizuki", "Naruto "],
+        "correct": "Mizuki",
+        "img" : "img/OIP (28).jpg"
+      },
+      {
+        "question": "Quel est le nom de la technique que Naruto utilise pour vaincre Mizuki?",
+        "answers": ["Sexy jutsu", "Rasengan", "Shuriken tourbillonnant", "Multi clonage"],
+        "correct": "Multi clonage",
+        "img" : "img/hq2.jpg"
+      },
+      {
+        "question": "Quel est le nom du premier ennemi que Naruto bat seul ?",
+        "answers": ["Pain", "Kiba", "Neji", "Sasuke"],
+        "correct": "Kiba",
+        "img" : "img/maxresdefault (5).jpg"
+      },
+      {
+        "question": "Quel est le lien entre Hachirama est Tsunade ?",
+        "answers": ["Son père", "Son grand frère", "Son Grand-Père", "Son fiancé disparu tragiquement"],
+        "correct": "Son Grand-Père",
+        "img" : "img/hashirama_and_tsunade_by_hotaru285_d78tfmt-414w-2x.jpg"
+      },
+      {
+        "question": "Quel est le seul personnage à avoir maitriser la technique d'Edo Tensei en dehors d'Orochimaru et de Kabuto ?",
+        "answers": ["Itachi", "Obito", "Madara", "Tobirama"],
+        "correct": "Tobirama",
+        "img" : "img/R (25).jpg"
+      },
+      {
+        "question": "Qui a enseigné le Rasengan à Naruto ?",
+        "answers": ["Kakashi", "Asura", "Jiraiya", "Minato"],
+        "correct": "Jiraiya",
+        "img" : "img/OIP (13).jpg"
+      },
+      {
+        "question": "Quel est le nom de la fille de Sasuke et Sakura ?",
+        "answers": ["Sarada", "Haruno", "Chocho", "Inoejin"],
+        "correct": "Sarada",
+        "img" : "img/OIP (14).jpg"
+      },
+      {
+        "question": "Quel est le nom du père de Boruto ?",
+        "answers": ["Sasuke", "Sharuto", "Naruto", "Minato"],
+        "correct": "Naruto",
+        "img" : "img/Boruto-and-naruto-uzumaki-boruto-42984984-1920-1080.jpg"
+      },
+      {
+        "question": "Quelle est la particularité du dojutsu de Boruto ?",
+        "answers": ["Jogan", "Kugen", "Jugen", "Futon"],
+        "correct": "Jogan",
+        "img" : "img/ffbb94f5edb89c6bb15d3e557187c1c0.jpg"
+      },
+      {
+        "question": "Quel est le nom de l'équipe de Kurenai ?",
+        "answers": ["1", "7", "10", "8"],
+        "correct": "8",
+        "img" : "img/OIP (15).jpg"
+      },
+      {
+        "question": "Qui est le 5ème Hokage ?",
+        "answers": ["Tsunade", "Kakashi", "Hiruzen", "Naruto"],
+        "correct": "Tsunade",
+        "img" : "img/R (20).jpg"
+      },
+      {
+        "question": "Quel ninja est connu comme le Ninja Médicale Légendaire ?",
+        "answers": ["Ino", "Tsunade", "Hinata", "Sakura"],
+        "correct": "Tsunade",
+        "img" : "img/OIP (16).jpg"
+      },
+      {
+        "question": "Qui est l'homme derrière le masque de Tobi ?",
+        "answers": ["Orochimaru", "Nagato", "Madara", "Obito"],
+        "correct": "Obito",
+        "img" : "img/R (21).jpg"
+      },
+      {
+        "question": "Quel criminel à tuer le 3ème Hokage ?",
+        "answers": ["Kimimaro", "Kabuto", "Orochimaru", "Gaara"],
+        "correct": "Orochimaru",
+        "img" : "img/maxresdefault (4).jpg"
+      },
+      {
+        "question": "Quel membre de l'Akatsuki utilise des marionnettes ?",
+        "answers": ["Sasori", "Madama Chiyo", "Kankuro", "Deidara"],
+        "correct": "Sasori",
+        "img" : "img/OIP (17).jpg"
+      },
+      {
+        "question": "Quel est le nom du Rasengan ameliorer de Naruto ?",
+        "answers": ["Rasengan", "Orbe tourbillonant", "Orbe Shuriken", "Mille ans des souffrances"],
+        "correct": "Orbe Shuriken",
+        "img" : "img/R (18).png"
+      },
+      {
+        "question": "Quel est le nom du Genjutsu d'Itachi qui torture pendant 72h ?",
+        "answers": ["Tsukuyomi", "Mangekyo Sharingan", "Amaterasu", "Lumière Céleste"],
+        "correct": "Tsukuyomi",
+        "img" : "img/hocmarketing-org-og-17991-unraveling-the-enigmatic-power-of-narutos-tsukuyomi.jpg"
+      },
+      {
+        "question": "Quel est le mode Ultime de Naruto ?",
+        "answers": ["Jinchuriki", "Mode Ermite", "Mode Baryon", "Mode Ermite de Rikudo"],
+        "correct": "Mode Baryon",
+        "img" : "img/R (26).jpg"
+      },
+      {
+        "question": "Quel Jutsu permet de voyager entre les dimensions ?",
+        "answers": ["Kamui", "Déplacement instantanés", "Téléportation", "Edo Tensei"],
+        "correct": "Kamui",
+        "img" : "img/OIP (20).jpg"
+      },
+      {
+        "question": "Qui utilise le Cristal Style ?",
+        "answers": ["Kimimaro", "Guren", "Haku", "Personne"],
+        "correct": "Guren",
+        "img" : "img/R (14).png"
+      },
+      {
+        "question": "Quel membre de l'Akatsuki possède plusieurs Coeurs ?",
+        "answers": ["Sasori", "Zetsu", "Pain", "Kakuzu"],
+        "correct": "Kakuzu",
+        "img" : "img/OIP (21).jpg"
+      },
+      {
+        "question": "Qui tue Hidan ?",
+        "answers": ["Kakashi", "Shikamaru", "Naruto", "Choji"],
+        "correct": "Shikamaru",
+        "img" : "img/R (23).jpg"
+      },
+      {
+        "question": "Quel est le nom de l'attaque ultime de Sasuke contre Itachi ?",
+        "answers": ["Kirin", "Mille oiseaux", "Ventilateur électrique", "Illusion démoniaque"],
+        "correct": "Kirin",
+        "img" : "img/R (24).jpg"
+      },
+      {
+        "question": "Qui affronte Madara en un contre un pendant la guerre ?",
+        "answers": ["Sasuke", "Gai", "Naruto", "Hashirama"],
+        "correct": "Gai",
+        "img" : "img/OIP (22).jpg"
+      },
+      {
+        "question": "Vrai ou Faux, que le vrai but de Nagato en utilisant Pain est de créer une arme de destruction pour imposer la PAIX par la PEUR ?",
+        "answers": ["Vrai", "Faux"],
+        "correct": "Vrai",
+        "img" : "img/OIP (23).jpg"
+      },
+      {
+        "question": "Quel est le lien entre Madara et Obito ?",
+      "answers": ["Frères", "Père et Fils", "Cousins", "Meme clan"],
+        "correct": "Meme clan",
+        "img" : "img/OIP (24).jpg"
+      },
+      {
+        "question": "Qui est le saeg des Six Chemins ?",
+        "answers": ["Hagoromo Otsutsuki", "Hamura Otsutsuki", "Obito", "Madara"],
+        "correct": "Hagoromo Otsutsuki",
+        "img" : "img/OIP (25).jpg"
+      },
+      {
+        "question": "Qui a scellé Kurama en Naruto à sa naissance ?",
+        "answers": ["Hokage 3ème du nom", "Kushina", "Fugaku Uchiha", "Hokage 4ème du nom"],
+        "correct": "Hokage 4ème du nom",
+        "img" : "img/minato-cb3e3286b2ce2ad3400366005973397c_600x400.jpg"
+      },
+      {
+        "question": "Qui est le premier Jinchuriki à maitriser parfaitement son démon ?",
+        "answers": ["Killer Bee", "Naruto", "Utakata", "Han"],
+        "correct": "Killer Bee",
+        "img" : "img/OIP (26).jpg"
+      },
+      {
+        "question": "Quel est le lien entre Neji Hyuga et Hinata Hyuga ?",
+        "answers": ["Frère et Soeurs", "Cousins", "Jumeaux", "Ils sont amoureux"],
+        "correct": "Cousins",
+        "img" : "img/OIP (27).jpg"
+      },
+      {
+        "question": "Quel est le nom du frère du Sage des Six chemins qui l'a aidé à sceller la Bete à Dix Queeus ?",
+        "answers": ["Hamura Otsutsuki", "Hagoromo Otsutsuki", "Indra Otsutsuki", "Kaguya Otsutsuki"],
+        "correct": "Hamura Otsutsuki",
+        "img" : "img/OIP (29).jpg"
+      },
+      {
+        "question": "Quelle est la capacité spéciale du Mangekyo Sharingan de Shisui ?",
+        "answers": ["Tsukuyomi", "Kotoamatsukami", "Kamui", "Kaleidoscopique Notique"],
+        "correct": "Kotoamatsukami",
+        "img" : "img/R (28).jpg"
+      },
+      {
+        "question": "Quel est la seule personne à avoir survécu à la technique Reaper Death Seal (Fuin Jutsu : Shiki Fujin) ?",
+        "answers": ["Orochimaru", "Hiruzen", "Minato", "Personne"],
+        "correct": "Orochimaru",
+        "img" : "img/OIP (30).jpg"
+      },
+      {
+        "question": "Quelle technique interdit Nagato utilise après avoir ressuscité les habitants de Konoha ?",
+        "answers": ["Chibaku Tensei", "Edo Tensei", "Shinra Tensei", "Gedo: Rinne Tensei no jutsu"],
+        "correct": "Gedo: Rinne Tensei no jutsu",
+        "img" : "img/R (29).jpg"
+      },
+      {
+        "question": "Qui a tué Rin Nohara ?",
+        "answers": ["Kakashi", "Minato", "Les ninjas d'autres village après l'avoir kidnapper", "Obito"],
+        "correct": "Kakashi",
+        "img" : "img/32c9d-16551096483932-1920.webp"
+      },
+      {
+        "question": "Quelle est la condition pour activer le Rinnegan ?",
+        "answers": ["Mode Ermite des Six chemins", "Posséder les chakras d'Indra et Asura", "Mangekyo Sharingan", "Devenir un etre tout puissant"],
+        "correct": "Posséder les chakras d'Indra et Asura",
+        "img" : "img/3990a-16532972817002-1920.webp"
+      },
+      {
+        "question": "Quelle est la capacité du Byakugan que le Sharingan ne possède pas ?",
+        "answers": ["Copie des techniques", "Vision de 360°", "Percevoir les mouvements de l'adversaire", "Lancer des techniques"],
+        "correct": "Vision de 360°",
+        "img" : "img/R (30).jpg"
+      },
+      {
+        "question": "Quel est le nom du village de Yahiko, Nagato et Konan ?",
+        "answers": ["Amegakure", "Kusagakure", "Iwagakure"],
+        "correct": "Amegakure",
+        "img" : "img/OIP (31).jpg"
+      },
+      {
+        "question": "Quelle est la forme finale de Naruto dans la quatrième guerre ninja ?",
+        "answers": ["Sennin Mode", "Kyubi Chakra Mode", "Mode Sage des Six Chemins", "Mode Baryon"],
+        "correct": "Mode Sage des Six Chemins",
+        "img" : "img/OIP (33).jpg"
+      },
+      {
+        "question": "Quel personnage a scellé la moitié du chakra de Kyubi en lui ?",
+        "answers": ["Kushina", "Minato", "Naruto", "Hiruzen"],
+        "correct": "Minato",
+        "img" : "img/R (31).jpg"
+      },
+      {
+        "question": "Qui a vaincu définitivement Madara Uchiha ?",
+        "answers": ["Sasuke", "Naruto", "Zetsu Noir", "Zetsu Blanc"],
+        "correct": "Zetsu Noir",
+        "img" : "img/R (32).jpg"
+      },
+      {
+        "question": "Quel est le vrai nom de Tenten ?",
+        "answers": ["Tenhime", "Inconnu", "Tentei"],
+        "correct": "Inconnu",
+        "img" : "img/R (33).jpg"
+      },
+      {
+        "question": "Qui a inventé la technique du Multi Clonage ?",
+        "answers": ["Jiraiya", "Naruto", "Tobirama", "Iruka"],
+        "correct": "Tobirama",
+        "img" : "img/OIP (32).jpg"
+      },
+      {
+        "question": "Combien de portes peut ouvrir Rock Lee  ?",
+        "answers": ["6", "5", "8", "7"],
+        "correct": "6",
+        "img" : "img/maxresdefault (7).jpg"
+      },
+      {
+    "question": "Quel est le nom de l'ancêtre du chakra dans l'univers de Naruto ?",
+    "answers": ["Hagoromo", "Kaguya", "Hamura", "Kinshiki"],
+    "correct": "Kaguya",
+    "img" : "img/Kaguya_Face.webp"
+     },
+    {
+    "question": "Combien de cibles Itachi a-t-il éliminées lors de l'attaque du clan Uchiwa ?",
+    "answers": ["Toute la famille sauf Sasuke", "Tout le clan sans exception", "Tous les hommes du clan seulement", "Tout le monde sauf les enfants"],
+    "correct": "Toute la famille sauf Sasuke",
+    "img" : "img/R (19).png"
+    },
+    {
+    "question": "Quel bijû possède 5 queues ?",
+    "answers": ["Gobi", "Rokubi", "Yonbi", "Saiken"],
+    "correct": "Gobi",
+    "img" : "img/R (34).jpg"
+   },
+  {
+    "question": "Quel est le nom du sabre de Killer Bee ?",
+    "answers": ["Samehada", "Il n’a pas de sabre", "Huit lames en simultané", "Kubikirikicho"],
+    "correct": "Huit lames en simultané",
+    "img" : "img/R (20).png" 
+  },
+  {
+    "question": "Quel personnage utilise le Mokuton sans greffe d’ADN ?",
+    "answers": ["Yamato", "Hashirama", "Moegi", "Madara"],
+    "correct": "Hashirama",
+    "img" : "img/sage-mode-hashirama-senju-2572eac98ee36fb17916d0aa30b710fb.jpg"
+  },
+  {
+    "question": "Quelle technique Naruto utilise-t-il pour vaincre Kaguya ?",
+    "answers": ["Rasengan géant", "Fūton Rasen Shuriken", "Multi-clonage avec surprise"],
+    "correct": "Multi-clonage avec surprise",
+    "img" : "img/naruto_vs_kaguya_by_sugushmeaky_d7rv0rb-fullview.jpg"
+  },
+  {
+    "question": "Quelle est la première capacité que le Rinnegan offre ?",
+    "answers": ["Chibaku Tensei", "Vision partagée", "Absorption de chakra", "Immortalité"],
+    "correct": "Vision partagée",
+    "img" : "img/R (35).jpg"
+  },
+  {
+    "question": "Quelle est la condition d’activation du Mangekyō Sharingan éternel ?",
+    "answers": ["Mourir et renaître", "Aucune", "Tuer un Uchiwa", "Transplanter les yeux d’un proche"],
+    "correct": "Transplanter les yeux d’un proche",
+    "img" : "img/R (21).png"
+  },
+  {
+    "question": "Quelle capacité possède Danzo grâce à l’œil de Shisui ?",
+    "answers": ["Téléportation", "Contrôle mental subtil", "Réincarnation", "Illusion"],
+    "correct": "Contrôle mental subtil",
+    "img" : "img/maxresdefault (8).jpg"
+  },
+  {
+    "question": "Quel est le nom de l’attaque ultime de Sasuke avec son Rinnegan ?",
+    "answers": ["Amenotejikara", "Indra no Ya", "Susanoo parfait" ],
+    "correct": "Indra no Ya",
+    "img" : "img/flecha-de-indra-1200x675.jpg"
+  },
+  {
+    "question": "Quel ninja est surnommé \"Le Croc Blanc de Konoha\" ?",
+    "answers": ["Sakumo Hatake", "Minato", "Hiruzen", "Kakashi Hatake"],
+    "correct": "Sakumo Hatake",
+    "img" : "img/R (36).jpg"
+  },
+  {
+    "question": "Quel est le vrai but de Zetsu noir ?",
+    "answers": ["Servir Madara", "Ressusciter Kaguya", "Contrôler les bijû", "Servir Obito"],
+    "correct": "Ressusciter Kaguya",
+    "img" : "img/OIP (34).jpg"
+  },
+  {
+    "question": "Quelle est l’arme secrète de Naruto contre Sasuke ?",
+    "answers": ["Rasenshuriken", "L'amitié", "Les clones"],
+    "correct": "L'amitié",
+    "img" : "img/OIP (35).jpg"
+  }
+]

@@ -1,0 +1,306 @@
+@font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Bangers;
+  src: url(/fonts/Bangers-Regular.ttf);
+}
+.option-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 12px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: #FFA500;
+  color: white;
+  font-family: Lato;
+}
+.option-bar .f1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 250ms;
+  cursor: pointer;
+  gap: 6px;
+}
+.option-bar .f1:hover {
+  background-color: #aa6e00;
+}
+.option-bar .f1:active {
+  background-color: #aa6e00;
+}
+.option-bar .f1 p {
+  margin: 0;
+  margin-bottom: 1px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+}
+.player p {
+  margin: 0;
+}
+.player .top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFA500;
+  color: white;
+  padding: 12px;
+}
+.player .top-bar .questions {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  text-align: start;
+}
+.player .top-bar .questions .count-frame {
+  display: flex;
+  flex-direction: row;
+}
+.player .top-bar .score-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  text-align: end;
+}
+.player .corps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
+}
+.player .corps .projection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #FFA500;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 0 12px;
+  height: 180px;
+}
+.player .corps .projection img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.player .corps .projection p {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.player .corps #pr-red {
+  border-color: #C97276;
+}
+.player .corps #pr-green {
+  border-color: #ABE992;
+}
+.player .corps .status-frame {
+  color: white;
+  text-align: center;
+}
+.player .corps .status-frame p {
+  font-size: 20px;
+}
+.player .corps .status-frame #green-st {
+  color: #ABE992;
+}
+.player .corps .status-frame #red-st {
+  color: #C97276;
+}
+.player .corps .explic-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  text-align: center;
+  font-family: Lato;
+}
+.player .corps .explic-frame input {
+  font-family: Bangers;
+  text-align: center;
+  border: 2px solid #FFA500;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 8px 0;
+  width: 80%;
+}
+.player .corps .reponses {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 0 12px;
+}
+.player .corps .reponses .dispo-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.player .corps .reponses .dispo-1 .elmnt {
+  background-color: #FFA500;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  transition: background-color 250ms;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.player .corps .reponses .dispo-1 .elmnt:hover {
+  background-color: #aa6e00;
+}
+.player .corps .reponses .dispo-1 #grisee {
+  background-color: grey;
+}
+.player .corps .reponses .dispo-1 #fonce {
+  background-color: #aa6e00;
+}
+.player .corps .reponses .dispo-1 #true-btn {
+  background-color: #ABE992;
+}
+.player .corps .reponses .dispo-1 #false-btn {
+  background-color: #C97276;
+}
+.player .corps .reponses .dispo-2 {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 12px;
+  justify-content: center;
+}
+.player .corps .reponses .dispo-2 .elmnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 8px;
+  background-color: #FFA500;
+  border-radius: 8px;
+  transition: background-color 250ms;
+  height: 45px;
+}
+.player .corps .reponses .dispo-2 .elmnt:hover {
+  background-color: #aa6e00;
+}
+.player .corps .reponses .dispo-2 #grisee {
+  background-color: grey;
+}
+.player .corps .reponses .dispo-2 #fonce {
+  background-color: #aa6e00;
+}
+.player .corps .reponses .dispo-2 #true-btn {
+  background-color: #ABE992;
+}
+.player .corps .reponses .dispo-2 #false-btn {
+  background-color: #ABE992;
+}
+.player .options {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.player .options .choix-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 12px;
+}
+.player .options .choix-1 .btn-1 {
+  background-color: #FFA500;
+  border-radius: 8px;
+  padding: 8px 0;
+  color: white;
+  transition: background-color 250ms;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+.player .options .choix-1 .btn-1:hover {
+  background-color: #aa6e00;
+}
+.player .options .choix-1 #btn2-gr {
+  background-color: #ABE992;
+}
+.player .options .choix-1 #btn2-gr:hover {
+  background-color: #4f9234;
+}
+.player .options .choix-1 #btn2-rd {
+  background-color: #C97276;
+}
+.player .options .choix-1 #btn2-rd:hover {
+  background-color: #9d2329;
+}
+.player .options .choix-2 {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 12px;
+  justify-content: center;
+}
+.player .options .choix-2 .btn-2a,
+.player .options .choix-2 .btn-2b {
+  background-color: #FFA500;
+  padding: 8px 0px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 250ms;
+  cursor: pointer;
+}
+.player .options .choix-2 .btn-2a:hover,
+.player .options .choix-2 .btn-2b:hover {
+  background-color: #aa6e00;
+}
+.player .options .choix-2 #btn2-gr {
+  background-color: #ABE992;
+}
+.player .options .choix-2 #btn2-rd {
+  background-color: #C97276;
+}
+
+@keyframes slideFadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (min-width: 600px) {
+  .main-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 500px;
+    border: 2px solid #FFA500;
+    background-color: rgba(0, 0, 0, 0.419);
+    border-radius: 8px;
+    padding-bottom: 12px;
+  }
+  .player .top-bar {
+    border-radius: 6px 6px 0 0;
+  }
+  .option-bar {
+    width: 476px;
+    margin: 12px 0;
+  }
+}/*# sourceMappingURL=solo.css.map */

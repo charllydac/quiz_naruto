@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Lato;
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bangers;
+    src: url(/fonts/Bangers-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Bangers;
+}
+
+.main-frame .background{
+    position: fixed; /* Reste en place même au scroll */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Remplit sans déformer */
+    z-index: -2;
+    background-size: 105%;
+}
+
+.main-frame .mask {
+    position: fixed; /* Reste en place même au scroll */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover; /* Remplit sans déformer */
+    background-color: #0a0f279f;
+}

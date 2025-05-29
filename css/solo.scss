@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Lato;
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bangers;
+    src: url(/fonts/Bangers-Regular.ttf);
+}
+
+$color1 : #FFA500;
+$color1-f : #aa6e00;
+$green : #ABE992;
+$red : #C97276;
+
+// Option bar
+.option-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: $color1;
+    color: white;
+    font-family: Lato;
+    .f1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 4px;
+        border-radius: 4px;
+        transition: background-color 250ms;
+        cursor: pointer;
+        gap: 6px;
+        &:hover {
+            background-color: $color1-f;
+        }
+        &:active {
+            background-color: $color1-f;
+        }
+        p {
+            margin: 0;
+            margin-bottom: 1px;
+        }
+    }
+}
+
+// Frame du joueur
+.player {
+    display: flex;
+    flex-direction: column;
+    // Elimination des marges par défaut
+    p {
+        margin: 0;
+    }
+    // Barre supérieure
+    .top-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $color1;
+        color: white;
+        padding: 12px;
+        // Comptage des questions
+        .questions {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: center;
+            text-align: start;
+            .count-frame {
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        // Scrore
+        .score-frame {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: center;
+            text-align: end;
+        }
+    }
+    // Frame du contenu
+    .corps {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0;
+       
+        // Frame de l'affiche de la question ainsi que de l'image
+        .projection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid $color1;
+            overflow: hidden;
+            border-radius: 12px;
+            margin: 0 12px;
+            height: 180px;
+            // Image à afficher
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            // Texte à afficher
+            p {
+                font-size: 14px;
+                text-align: center;
+                color: white;
+            }
+        }
+        #pr-red {
+            border-color: $red;
+        }
+        #pr-green {
+            border-color: $green;
+        }
+        // Status et chrono (correcte, incorrecte, etc.)
+        .status-frame {
+            color: white;
+            text-align: center;
+            
+            p {
+                font-size: 20px;
+            }
+            #green-st {
+                color: $green;
+            }
+            #red-st {
+                color: $red;
+            }
+        }
+        // Texte explicatif
+        .explic-frame {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 12px;
+            text-align: center;
+            font-family: Lato;
+            input {
+                font-family: Bangers;
+                text-align: center;
+                border: 2px solid $color1;
+                border-radius: 8px;
+                font-size: 18px;
+                padding: 8px 0;
+                width: 80%;
+            }
+        }
+        // Réponses
+        .reponses {
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            padding: 0 12px;
+            // Disposition 1 : liste
+            .dispo-1 {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                .elmnt {
+                    background-color: $color1;
+                    color: white;
+                    padding: 8px;
+                    text-align: center;
+                    transition: background-color 250ms;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $color1-f;
+                    }
+                }
+                #grisee {
+                    background-color: grey;
+                }
+                #fonce {
+                    background-color: $color1-f;
+                }
+                #true-btn {
+                    background-color: $green;
+                }
+                #false-btn {
+                    background-color: $red;
+                }
+            }
+            // Disposition 2 : grille de 4
+            .dispo-2 {
+                display: grid;
+                grid-template-columns: 48% 48%;
+                gap: 12px;
+                justify-content: center;
+                .elmnt {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    padding: 8px;
+                    background-color: $color1;
+                    border-radius: 8px;
+                    transition: background-color 250ms;
+                    height: 45px;
+                    &:hover {
+                        background-color: $color1-f;
+                    }
+                }
+                #grisee {
+                    background-color: grey;
+                }
+                #fonce {
+                    background-color: $color1-f;
+                }
+                #true-btn {
+                    background-color: $green;
+                }
+                #false-btn {
+                    background-color: $green;
+                }
+            }
+        }
+    }
+    // Boutons d'options
+    .options {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 12px;
+        // disposition simple
+        .choix-1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 0 12px;
+            // Style de bouton 1
+            .btn-1 {
+                background-color: $color1;
+                border-radius: 8px;
+                padding: 8px 0;
+                color: white;
+                transition: background-color 250ms;
+                text-align: center;
+                width: 100%;
+                cursor: pointer;
+                &:hover {
+                    background-color: $color1-f;
+                }
+            }
+            #btn2-gr {
+                background-color: $green;
+                &:hover {
+                    background-color: #4f9234;
+                }
+            }
+            #btn2-rd {
+                background-color: $red;
+                &:hover {
+                    background-color: #9d2329;
+                }
+            }
+        }
+        // Disposition double
+        .choix-2 {
+            display: grid;
+            grid-template-columns: 45% 45%;
+            gap: 12px;
+            justify-content: center;
+            .btn-2a,
+            .btn-2b {
+                background-color: $color1;
+                padding: 8px 0px;
+                text-align: center;
+                color: white;
+                border-radius: 8px;
+                transition: background-color 250ms;
+                cursor: pointer;
+                &:hover {
+                    background-color: $color1-f;
+                }
+            }
+            #btn2-gr {
+                background-color: $green;
+            }
+            #btn2-rd {
+                background-color: $red;
+            }
+        }
+    }
+}
+
+@keyframes slideFadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 600px){
+
+    .main-frame {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .player {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        width: 500px;
+        border: 2px solid $color1;
+        background-color: rgba(0, 0, 0, 0.419);
+        border-radius: 8px;
+        padding-bottom: 12px;
+        .top-bar {
+            border-radius: 6px 6px 0 0;
+        }
+    }
+
+    .option-bar {
+        width: 476px;
+        margin: 12px 0;
+    }
+}
