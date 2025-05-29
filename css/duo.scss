@@ -295,6 +295,10 @@ $red : #C97276;
     }
 }
 
+.player.two {
+    transform: rotate(180deg);
+}
+
 @keyframes slideFadeDown {
     from {
         opacity: 0;
