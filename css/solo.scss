@@ -170,11 +170,12 @@ $red : #C97276;
                     color: white;
                     padding: 8px;
                     text-align: center;
-                    transition: background-color 250ms;
+                    transition: background-color 250ms, transform 0.3s ease;
                     border-radius: 8px;
                     cursor: pointer;
                     &:hover {
                         background-color: $color1-f;
+                        transform: scale(1.02);
                     }
                 }
                 #grisee {
@@ -204,10 +205,11 @@ $red : #C97276;
                     padding: 8px;
                     background-color: $color1;
                     border-radius: 8px;
-                    transition: background-color 250ms;
+                    transition: background-color 250ms, transform 0.3s ease;
                     height: 45px;
                     &:hover {
                         background-color: $color1-f;
+                        transform: scale(1.02);
                     }
                 }
                 #grisee {
@@ -244,7 +246,8 @@ $red : #C97276;
                 border-radius: 8px;
                 padding: 8px 0;
                 color: white;
-                transition: background-color 250ms;
+                transition: background-color 250ms, transform 0.3s ease;
+                box-shadow: 0 0 10px #fff;
                 text-align: center;
                 width: 100%;
                 cursor: pointer;
@@ -278,9 +281,11 @@ $red : #C97276;
                 text-align: center;
                 color: white;
                 border-radius: 8px;
-                transition: background-color 250ms;
+                transition: background-color 250ms, transform 0.3s ease;
+                box-shadow: 0 0 10px #fff;
                 cursor: pointer;
                 &:hover {
+                    transform: scale(1.02);
                     background-color: $color1-f;
                 }
             }

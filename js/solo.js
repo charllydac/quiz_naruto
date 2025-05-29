@@ -26,7 +26,16 @@ async function start_game(){
     load_question(questions[index_q]);
 }
 
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1)); // index aléatoire entre 0 et i
+    [array[i], array[j]] = [array[j], array[i]];   // échange des éléments
+  }
+  return array;
+}
+
 function assser_builder(assertions, type = 1){
+    let asserts = shuffle(assertions);
     let base = document.querySelector(".player");
     if(base.querySelector(".reponses")){
         let rep_base = base.querySelector(".reponses");
@@ -39,11 +48,11 @@ function assser_builder(assertions, type = 1){
             n2 = document.createElement("div");
             n2.setAttribute("class", "dispo-2");
         }
-        for(let i = 0; i < assertions.length; i++){
+        for(let i = 0; i < asserts.length; i++){
             let n1 = document.createElement("div");
             n1.setAttribute("class", "elmnt");
             n1.setAttribute("onClick", "valid_rep(this)");
-            n1.innerText = assertions[i];
+            n1.innerText = asserts[i];
             n1.setAttribute('id', i);
             n2.appendChild(n1);
         }
@@ -158,6 +167,10 @@ function valid_rep(event) {
 }
 
 function prepa_new(){
+
+    clearInterval(decompte_v);
+
+
     const b1 = document.querySelector(".projection");
     if(b1.querySelector("img")){
         b1.querySelector("img").remove();
