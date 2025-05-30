@@ -1,87 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiz Naruto</title>
-  <style>
-    
-   @import url('img/maxresdefault (6).jpg');
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body, html {
-      height: 100%;
-      font-family: 'Bangers', cursive;
-      overflow: hidden;
-    }
-    .hero {
-      background-image: url('img/w813zvkqdar41.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      position: relative;
-      animation: zoom 20s infinite alternate ease-in-out;
-    }
-    .overlay {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.6);
-    }
-    .content {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      text-align: center;
-      animation: fadeInUp 2s ease-out;
-    }
-    .content h1 {
-      font-size: 4em;
-      letter-spacing: 3px;
-      animation: glow 2s infinite alternate;
-    }
-    .content p {
-      font-size: 1.5em;
-      margin: 20px 0;
-    }
-    .btn {
-      background: orange;
-      color: #000;
-      padding: 15px 30px;
-      text-decoration: none;
-      font-size: 1.2em;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #fff;
-      transition: transform 0.3s ease;
-    }
-    .btn:hover {
-      transform: scale(1.1);
-      background: #ffd700;
-    }
-    @keyframes glow {
-      from { text-shadow: 0 0 10px #fff, 0 0 20px #f00; }
-      to   { text-shadow: 0 0 20px #fff, 0 0 40px #ff0; }
-    }
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translate(-50%, -60%); }
-      to   { opacity: 1; transform: translate(-50%, -50%); }
-    }
-    @keyframes zoom {
-      from   { transform: scale(1); }
-      to { transform: scale(1.1); }
-    }
-  </style>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Quiz Naruto</title> 
 </head>
 <body>
-  <div class="hero">
-    <div class="overlay"></div>
-    <div class="content">
+  <div class="home-frame">
+    <div class="background-video">
+      <video src="/videos/home.mp4" autoplay muted playsinline loop></video>
+    </div>
+    <div class="mask"></div>
+    <div class="text-accueil">
       <h1><b>Quiz Naruto</b></h1>
       <p>Es-tu un vrai ninja ? Teste tes connaissances sur l'univers de Naruto !</p>
-      <a href="mode.html" class="btn">Commencer le Quiz</a>
+      <a href="new_game.html" class="btn">Commencer le Quiz</a>
     </div>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
 
