@@ -1,11 +1,12 @@
-let button1 = document.querySelector(".btn-1");
-let quizData;
-let lock1 = 0;
-let count1 = 0;
+let button1 = document.querySelector(".btn-1"); // Bouton de validation du nom utilisateur
+let quizData; // ça sert plus à rien, c'était pour les questions
+let lock1 = 0; // Pour éviter les doubles actions
+let count1 = 0; //
 let timeLeft = 12;
 let decompte_v;
 let count = document.getElementById("count");
 let max = document.getElementById('max');
+let max_q;
 let chrono = document.querySelector(".text-status");
 let name1;
 let correct;
@@ -15,15 +16,44 @@ let ques;
 let index_q = 0;
 let historique = [];
 
+
+// Fonction permettant
+function level_selector(taille){
+    let params = new URLSearchParams(window.location.search);
+    let level = params.get("lvl");
+
+    switch(level){
+        case "1":
+            max_q = 36;
+            break;
+        case "2":
+            max_q = 60;
+            break;
+        case "3":
+            max_q = 80;
+            break;
+        case "4":
+            max_q = taille;
+            break;
+    }
+}
+
 async function start_game(){
     let reponse = await fetch("question.json");
     let questions = await reponse.json();
 
-    max.innerText = questions.length;
+    level_selector(questions.length)
 
-    index_q = getUniqueRandomInt(1, questions.length);
-    
-    load_question(questions[index_q]);
+    max.innerText = max_q;
+
+    if(max_q === q_plus){
+        // Fin du jeux
+        console.log("Fin !")
+    } else {
+        index_q = getUniqueRandomInt(1, questions.length);
+        load_question(questions[index_q]); 
+    }
+ 
 }
 
 function shuffle(array) {
@@ -124,6 +154,7 @@ function valid_rep(event) {
     // Grise tous les boutons
     for (let i = 0; i < all.length; i++) {
         all[i].setAttribute("id", "grisee");
+        all[i].setAttribute("onClick", "");
     }
 
     event.setAttribute("id", "fonce");
@@ -203,10 +234,7 @@ function getUniqueRandomInt(min, max) {
   return nombre;
 }
 
-
-function exit(jid) {
-
-    prepa_new();
+function resume(jid){
 
     let base;
 
@@ -216,17 +244,51 @@ function exit(jid) {
         base = document.querySelector(".player.two");
     }
 
+    if(name1 === ""){
+        base.querySelector(".projection").querySelector(".question").innerText = "Entrer votre nom";
+        let champ = document.createElement("input");
+        champ.setAttribute("type", "text");
+        champ.setAttribute("class", "name_usr");
+        champ.setAttribute("placeholder", "Entrer votre nom");
+        base.querySelector(".explic-frame").appendChild(champ);
+
+        let btn = document.createElement("div");
+        btn.setAttribute("class", "btn-1");
+        btn.innerText = "Continuer";
+        btn.setAttribute("onClick", "name_check()");
+
+        base.querySelector(".choix-1").appendChild(btn);
+    }
+
+}
+
+function exit(jid) {
+
+    clearInterval(decompte_v);
+
+    let base;
+
+    if(jid === 1){
+        base = document.querySelector(".player.one");
+    } else {
+        base = document.querySelector(".player.two");
+    }
+    base.querySelector(".projection").querySelector(".question").innerText = "Voulez vous quitter le jeux ?";
+    base.querySelector(".explic-frame").innerHTML = "";
     let b1 = base.querySelector(".options");
     let b2 = document.createElement("div");
     b2.setAttribute("class", "choix-2");
     let btn2a = document.createElement("div");
     btn2a.setAttribute("class", "btn-2a");
     btn2a.innerText = "Annuler";
+    btn2a.setAttribute("onClick", "resume("+ jid + ")");
     let btn2b = document.createElement("div");
     btn2b.setAttribute("class", "btn-2b");
     btn2b.setAttribute("id", "btn2-rd");
     btn2b.innerText = "Quitter";
     btn2b.setAttribute("onClick", "exit_game(this)");
+
+    b1.querySelector(".choix-1").innerHTML = "";
 
     b2.appendChild(btn2a);
     b2.appendChild(btn2b);

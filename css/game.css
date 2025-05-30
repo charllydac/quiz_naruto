@@ -73,6 +73,7 @@ body {
     background: orange;
     color: #000;
     text-decoration: none;
+    cursor: pointer;
     font-size: 22px;
     border-radius: 10px;
     box-shadow: 0 0 10px #fff;
